@@ -8,15 +8,15 @@ class EmailAddressParser
 
 #attr_accessor :email_addresses
 
-@@email_addresses=[]
+# @@email_addresses=[]
 
-def self.new(email_addresses)
-  @@email_addresses<< email_addresses
-end
+# def self.new(email_addresses)
+#   @@email_addresses<< email_addresses
+# end
 
-def self.parse
-@@email_addresses
-end
+# def self.parse
+# @@email_addresses
+# end
 
 
 end
