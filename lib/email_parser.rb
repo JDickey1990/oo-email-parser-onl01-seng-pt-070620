@@ -13,7 +13,7 @@ def initialize(emails)
 end
 
 def parse
-
+@emails
 end
 
 
