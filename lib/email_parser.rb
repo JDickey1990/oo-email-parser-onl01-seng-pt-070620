@@ -14,9 +14,19 @@ def initialize(emails)
 end
 
 def parse 
- split_emails =  @@emails.split(",")
+  @@emails.split
  end
 
 
 
 end
+
+# def parse 
+#     if @emails.include?(",")
+#       @emails.split(/, | /)
+#     elsif !@emails.include?(",")
+#       @emails.split 
+#     else @emails.include?(",")
+#     @emails.uniq(:emails)
+#     end 
+# end
