@@ -10,7 +10,7 @@ class EmailAddressParser
 
 # @@email_addresses=[]
 
-def self.new.parser(email_addresses)
+def self.new(email_addresses)
   #@@email_addresses<< email_addresses
 end
 
