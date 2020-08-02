@@ -14,8 +14,7 @@ def initialize(emails)
 end
 
 def parse 
-  split_emails = @@emails.split(",")
-  end
+  @@emails.split(",")
  end
 
 
