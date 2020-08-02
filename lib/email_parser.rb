@@ -14,11 +14,7 @@ def initialize(emails)
 end
 
 def parse 
-    if @emails.include?(",")
-      @emails.uniq.split(/, | /, :emails)
-    else !@emails.include?(",")
-      @emails.uniq.split(:emails)
-    end 
+  @@emails.split(",")
  end
 
 
