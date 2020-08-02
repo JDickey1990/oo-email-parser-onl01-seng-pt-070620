@@ -14,8 +14,9 @@ def initialize(emails)
 end
 
 def parse 
- if @@emails.include?(",")
+  if @@emails.include?(",")
    @@emails.split(",")
+  end
  end
 
 
