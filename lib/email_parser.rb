@@ -8,13 +8,13 @@ class EmailAddressParser
 
 attr_accessor :email_addresses
 
-@@emails =[]
+#@@emails =[]
 def initialize(emails)
-  @@emails << emails
+  @emails =  emails
 end
 
 def parse 
-  @@emails.split(",")
+  @emails.split(",")
  end
 
 
