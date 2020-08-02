@@ -15,7 +15,7 @@ def self.new(email_addresses)
 end
 
 def parse
-    
+@@email_addresses.split   
 end
 
 
